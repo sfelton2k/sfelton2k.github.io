@@ -3,6 +3,9 @@
         <title>Assignment 1: Phone Dialer</title>
     </head>
     <body>
+        <button id = "dialInterface">Dialer</button>
+        <button id = "contacts">Contacts</button>
+        <button id = "addContact">Add Contact</button>
         <div class = "DialInteface" id = "dif">
             <form>
                 <label for = "NumberField">Number Field</label>
@@ -20,21 +23,26 @@
             <button id = "zero" >0</button>
             <button id = "clear">AC</button>
         </div>
-        <div class = "Contacts" id = "con"></div>
+        <div class = "Contacts" id = "con">
+            <table>
+                <tr>
+                    <th>Contact Name</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                </tr>
+            </table>
+        </div>
         <div class = "AddContacts" id = "acs">
             <form>
-                <label for="ContactName">Contact Name</label>
                 <input id = "ContactName" placeholder="Contact Name">
             </form>
             <form>
-                <label for="PhoneNumber">Phone Number</label>
                 <input id = "PhoneNumber" placeholder = "Phone Number">
             </form>
             <form>
-                <label for = "email">Email</label>
                 <input id = "email" placeholder = "Email">
             </form>
-            <button id = "addContact">Add</button>
+            <button id = "add_Contact">Add</button>
             <button id = "clearField">Clear</button>
         </div>
     </body>
