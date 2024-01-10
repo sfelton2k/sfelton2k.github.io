@@ -17,7 +17,7 @@ $("#contacts").click(function() {
     $("#add_contacts").hide();
 });
 
-$("#addContact").click(function() {
+$("#addContacts").click(function() {
     $("#dialer").hide();
     $("#listContacts").hide();
     $("#add_contacts").show();
