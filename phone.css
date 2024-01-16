@@ -1,10 +1,10 @@
-#one   { width: 20px; height: 20px; background: blue; color: white; margin: 5px }
-#two   { width: 20px; height: 20px; background: blue; color: white; margin: 5px }
-#three { width: 20px; height: 20px; background: blue; color: white; margin: 5px }
-#four  { width: 20px; height: 20px; background: blue; color: white; margin: 5px }
-#five  { width: 20px; height: 20px; background: blue; color: white; margin: 5px }
-#six   { width: 20px; height: 20px; background: blue; color: white; margin: 5px }
-#seven { width: 20px; height: 20px; background: blue; color: white; margin: 5px }
-#eight { width: 20px; height: 20px; background: blue; color: white; margin: 5px }
-#nine  { width: 20px; height: 20px; background: blue; color: white; margin: 5px }
-#zero  { width: 20px; height: 20px; background: blue; color: white; margin: 5px }
+#one   { background: blue; color: white; }
+#two   { background: blue; color: white; }
+#three { background: blue; color: white; }
+#four  { background: blue; color: white; }
+#five  { background: blue; color: white; }
+#six   { background: blue; color: white; }
+#seven { background: blue; color: white; }
+#eight { background: blue; color: white; }
+#nine  { background: blue; color: white; }
+#zero  { background: blue; color: white; }
