@@ -1,1 +1,10 @@
-button.numpad { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
+#one   { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
+#two   { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
+#three { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
+#four  { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
+#five  { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
+#six   { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
+#seven { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
+#eight { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
+#nine  { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
+#zero  { width: 10px; height: 10px; background: blue; color: white; margin: 5px }
