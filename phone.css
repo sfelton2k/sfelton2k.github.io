@@ -1,3 +1,4 @@
 .tab {background: green; color: white }
 .numpad  { background: blue; color: white }
 .clear { background: red; color: white }
+table, th, td { border: 1px solid }
