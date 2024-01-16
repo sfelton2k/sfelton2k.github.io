@@ -1,10 +1,3 @@
-.numpad  { background: blue; color: white; }
-#two   { background: blue; color: white; }
-#three { background: blue; color: white; }
-#four  { background: blue; color: white; }
-#five  { background: blue; color: white; }
-#six   { background: blue; color: white; }
-#seven { background: blue; color: white; }
-#eight { background: blue; color: white; }
-#nine  { background: blue; color: white; }
-#zero  { background: blue; color: white; }
+.tab {background: green; color: white }
+.numpad  { background: blue; color: white }
+.clear { background: red; color: white }
