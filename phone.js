@@ -24,45 +24,51 @@ $("#addContacts").click(function() {
 });
 
 $("#one").click(function() {
-    $("#phoneNumber").value += "1";
+    $("#numberField").val() + "1";
 });
 
 $("#two").click(function() {
-    $("phoneNumber").value += "2";
+    $("numberField").val() + "2";
 });
 
 $("#three").click(function() {
-    $("phoneNumber").value += "3";
+    $("numberField").val() + "3";
 });
 
 $("#four").click(function() {
-    $("#phoneNumber").value += "4";
+    $("#numberField").val() + "4";
 });
 
 $("#five").click(function() {
-    $("#phoneNumber").value += "5";
+    $("#numberField").val() + "5";
 });
 
 $("#six").click(function() {
-    $("#phoneNumber").value += "6";
+    $("#numberField").val() + "6";
 });
 
 $("#seven").click(function() {
-    $("#phoneNumber").value += "7";
+    $("#numberField").val() + "7";
 });
 
 $("#eight").click(function() {
-    $("#phoneNumber").value += "8";
+    $("#numberField").val() + "8";
 });
 
 $("#nine").click(function() {
-    $("#phoneNumber").value += "9";
+    $("#numberField").val() + "9";
 });
 
 $("#zero").click(function() {
-    $("#phoneNumber").value += "0";
+    $("#numberField").val() + "0";
 });
 
 $("#clearNum").click(function() {
-    $("#phoneNumber").value = "";
+    $("#phoneNumber").val("");
+});
+
+$("#clearField").click(function() {
+    $("#contactName").val("");
+    $("#phoneNumber").val("");
+    $("#email").val("");
 });
