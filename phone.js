@@ -1,28 +1,42 @@
+// page on open
 $(document).ready(function() {
     $("#tabs").show();
     $("#dialer").hide();
     $("#listContacts").hide();
     $("#add_contacts").hide();
+    $("#test_gestures").hide();
 });
 
+// tab buttons
 $("#dialInterface").click(function() {
     $("#dialer").show();
     $("#listContacts").hide();
     $("#add_contacts").hide();
+    $("#test_gestures").hide();
 });
 
 $("#contacts").click(function() {
     $("#dialer").hide();
     $("#listContacts").show();
     $("#add_contacts").hide();
+    $("#test_gestures").hide();
 });
 
 $("#addContacts").click(function() {
     $("#dialer").hide();
     $("#listContacts").hide();
     $("#add_contacts").show();
+    $("#test_gestures").hide();
 });
 
+$("#testGestures").click(function() {
+    $("#dialer").hide();
+    $("#listContacts").hide();
+    $("#add_contacts").hide();
+    $("#test_gestures").show();
+});
+
+// dialer tab
 $("#one").click(function() {
     $("#numberField").val() + "1";
 });
@@ -67,8 +81,18 @@ $("#clearNum").click(function() {
     $("#phoneNumber").val("");
 });
 
+// Add Contacts tab
 $("#clearField").click(function() {
     $("#contactName").val("");
     $("#phoneNumber").val("");
     $("#email").val("");
+});
+
+// Test Gestures tab
+$("gestureField").mousedown(function() {
+    $("#gestureOutput").val("Mouse Down");
+});
+
+$("gestureField").mouseup(function() {
+    $("#gestureOutput").val("Mouse Up");
 });
