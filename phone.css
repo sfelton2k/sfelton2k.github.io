@@ -1,5 +1,5 @@
 .tab {background: green; color: white }
 .numpad  { background: blue; color: white }
 .clear { background: red; color: white }
-.gestureField { background: silver; width: 600px; height: 600px }
 table, th, td { border: 1px solid }
+#gestureField { background: silver; width: 600px; height: 600px }
