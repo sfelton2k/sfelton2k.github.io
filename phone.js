@@ -89,10 +89,10 @@ $("#clearField").click(function() {
 });
 
 // Test Gestures tab
-$("gestureField").mousedown(function() {
+$("gestureField").on("mousedown", function() {
     $("#gestureOutput").val("Mouse Down");
 });
 
-$("gestureField").mouseup(function() {
+$("gestureField").on("mouseup", function() {
     $("#gestureOutput").val("Mouse Up");
 });
