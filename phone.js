@@ -89,10 +89,31 @@ $("#clearField").click(function() {
 });
 
 // Test Gestures tab
-$("gestureField").mousedown(function() {
+downX = 0;
+downY = 0;
+
+$("#gestureField").mousedown(function(event) {
+    downX = event.pageX;
+    downY = event.pageY;
     $("#gestureOutput").val("Mouse Down");
 });
 
-$("gestureField").mouseup("mouseup", function() {
-    $("#gestureOutput").val("Mouse Up");
+$("#gestureField").mouseup("mouseup", function(event) {
+    upX = event.pageX;
+    upY = event.pageY;
+    if (upX < downX) {
+        $("#gestureOutput").val("Swipe Left");
+    }
+    else if (upX > downX) {
+        $("#gestureOutput").val("Swipe Right");
+    }
+    else if (upY < downY) {
+        $("#gestureOutput").val("Swipe Up");
+    }
+    else if (upY > downY) {
+        $("#gestureOutput").val("Swipe Down");
+    }
+    else if (upX == downX && upY == downY) {
+        $("#gestureOutput").val("Mouse Up");
+    }
 });
