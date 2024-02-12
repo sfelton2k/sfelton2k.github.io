@@ -1,3 +1,8 @@
-#forum {background-color: silver; width: 350px}
-#composer {background-color: white; width: 300px}
-#buttonAlert {color: purple; background-color: gray; width: 300px; display: none}
+#blogMenu {background-color: silver; width: 7.5%}
+#blogTitle {margin: auto; background-color: silver; width: 25%}
+#pageTitle {margin: auto; background-color: silver; width: 27.5%}
+#img {margin:auto; background-color: silver; height: 50%; width: 50%}
+#content {margin: auto; background-color: silver; width: 50%}
+#forum {margin: auto; background-color: silver; width: 50%}
+#composer {margin:auto; background-color: white; width: 50%}
+#buttonAlert {margin:auto; color: purple; background-color: gray; width: 300px; display: none}

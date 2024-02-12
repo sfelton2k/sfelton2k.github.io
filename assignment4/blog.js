@@ -1,7 +1,7 @@
 // forum post button
 $("#forumSend").click(function () {
   // button would add what the person wants to say in a div
-  $("#buttonAlert").show();
+  window.alert("A button has been pressed.");
 });
 
 // menuExample from TeachAccess
@@ -15,7 +15,6 @@ window.menuExample = {
     // Keep all clicks from escaping the widget.
     onClickWidget() {
       event.preventDefault();
-      $("#buttonAlert").show();
     },
     onMouseoverMenuItem(event) {
       if (event.target.getAttribute("role") === "menuitem") {
@@ -24,7 +23,6 @@ window.menuExample = {
     },
     onClickMenuItem(event) {
         window.location='index.html';
-        $("#buttonAlert").show();
     },
     onKeydown(event) {
       const menuWidgetElement = event.currentTarget;
