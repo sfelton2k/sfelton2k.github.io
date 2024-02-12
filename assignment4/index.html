@@ -5,16 +5,37 @@
         <link rel="stylesheet" href="blog.css">
     </head>
     <body>
-        <div>
-            <button class="menu" id="home">Home</button>
-            <button class="menu" id="archive">Archive</button>
-            <button class="menu" id="about">About This Blog...</button>
+        <div id="blogMenu" class="popupMenuWidget" onkeydown="(menuExample.onKeydown.bind(menuExample))(event)" onclick="(menuExample.onClickWidget.bind(menuExample))(event)">
+            <a href="#" role="button" tabindex="0" aria-haspopup="true" aria-owns="actionsMenu" onclick="(menuExample.onClick.bind(menuExample))(event)">Actions &#9660;</a>
+            <ul id="actionsMenu" role="menu" data-open="false" onclick="(menuExample.onClickMenuItem.bind(menuExample))(event)" style="display: none;">
+                <li role="presentation">
+                    <a id="action_1" href="#" role="menuitem" tabindex="-1" data-active="false">Home</a>
+                </li>
+                <li role="presentation">
+                    <a id="action_2" href="#" role="menuitem" tabindex="-1" data-active="false">Archive</a>
+                </li>
+                <li role="presentation">
+                    <a id="action_3" href="#" role="menuitem" tabindex="-1" data-active="false">About the Blog...</a>
+                </li>
+            </ul>
         </div>
         <div>
-            <h2>Placeholder Blog Name</h2>
-            <h3>Placeholder Title</h3>
+            <h2>Star Wars Fandom</h2>
+            <h3>The Tragedy of the Clones</h3>
+            <img alt = "Captain Rex Star Wars by kolpaper" src="rex.png" height="300" width="300">
             <p style="text-indent: 25px">Lorem ipsum</p>
             <p style="text-indent: 25px">Lorem ipsum</p>
+        </div>
+        <div id="forum">
+            <div id="status">What do you think?</div>
+            <div 
+            aria-labelledby="status" 
+            contenteditable 
+            id="composer" 
+            role="textbox"></div>
+        </div>
+        <div id="buttonAlert" role="alert">
+            <span class="alert">A button has been pressed</span>
         </div>
         <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src = "blog.js"></script>
