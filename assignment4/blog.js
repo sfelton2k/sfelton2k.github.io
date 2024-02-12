@@ -1,4 +1,4 @@
-// menuExample
+// menuExample from TeachAccess
 window.menuExample = {
     onClick(event) {
       const isOpen = this.toggleMenu(event.currentTarget);
