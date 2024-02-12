@@ -1,3 +1,9 @@
+// forum post button
+$("#forumSend").click(function () {
+  // button would add what the person wants to say in a div
+  $("#buttonAlert").show();
+});
+
 // menuExample from TeachAccess
 window.menuExample = {
     onClick(event) {
