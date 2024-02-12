@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="blog.css">
     </head>
     <body>
-        <div id="blogMenu" class="popupMenuWidget" onkeydown="(menuExample.onKeydown.bind(menuExample))(event)" onclick="(menuExample.onClickWidget.bind(menuExample))(event)">
+        <div id="blogMenu" class="popupMenuWidget" onkeydown="(menuExample.onKeydown.bind(menuExample))(event)" onclick="(menuExample.onClickWidget.bind(menuExample))(event)" tabindex="-1">
             <a href="#" role="button" tabindex="0" aria-haspopup="true" aria-owns="actionsMenu" onclick="(menuExample.onClick.bind(menuExample))(event)">Actions &#9660;</a>
             <ul id="actionsMenu" role="menu" data-open="false" onclick="(menuExample.onClickMenuItem.bind(menuExample))(event)" style="display: none;">
                 <li role="presentation">
