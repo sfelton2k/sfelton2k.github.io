@@ -1,11 +1,23 @@
 // page on open
 $(document).ready(function() {
+    $("#accessibility").show();
     $("#tabs").show();
     $("#dialer").hide();
     $("#listContacts").hide();
     $("#add_contacts").hide();
     $("#test_gestures").hide();
     $("#about").hide();
+});
+
+// accessibility
+$("#lowVision").click(function () {
+    var theme = document.getElementsByTagName('link')[1];
+    if (theme.getAttribute('href') == 'phone.css') {
+        theme.setAttribute('href', 'phone-large.css');
+    }
+    else {
+        theme.setAttribute('href', 'phone.css');
+    }
 });
 
 // tab buttons
