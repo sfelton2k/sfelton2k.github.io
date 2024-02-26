@@ -5,6 +5,7 @@ $(document).ready(function() {
     $("#listContacts").hide();
     $("#add_contacts").hide();
     $("#test_gestures").hide();
+    $("#about").hide();
 });
 
 // tab buttons
@@ -13,6 +14,7 @@ $("#dialInterface").click(function() {
     $("#listContacts").hide();
     $("#add_contacts").hide();
     $("#test_gestures").hide();
+    $("#about").hide();
 });
 
 $("#contacts").click(function() {
@@ -20,6 +22,7 @@ $("#contacts").click(function() {
     $("#listContacts").show();
     $("#add_contacts").hide();
     $("#test_gestures").hide();
+    $("#about").hide();
 });
 
 $("#addContacts").click(function() {
@@ -27,6 +30,7 @@ $("#addContacts").click(function() {
     $("#listContacts").hide();
     $("#add_contacts").show();
     $("#test_gestures").hide();
+    $("#about").hide();
 });
 
 $("#testGestures").click(function() {
@@ -34,6 +38,15 @@ $("#testGestures").click(function() {
     $("#listContacts").hide();
     $("#add_contacts").hide();
     $("#test_gestures").show();
+    $("#about").hide();
+});
+
+$("#aboutProject").click(function () {
+    $("#dialer").hide();
+    $("#listContacts").hide();
+    $("#add_contacts").hide();
+    $("#test_gestures").hide();
+    $("#about").show();
 });
 
 // dialer tab
