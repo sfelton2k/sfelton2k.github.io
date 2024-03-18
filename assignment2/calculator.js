@@ -1,6 +1,6 @@
 // this gives us the order of the buttons, which we can use to step through the buttons in various directions
 // since we know the layout, + 1 moves to the next item, -1 previous, +4 is one row down, -4 is one row up
-buttonOrder = ["#button7","#button8","#button9","#buttonDivide","#button4","#button5","#button6","#buttonMultiply","#button1","#button2","#button3","#buttonAdd","#button0","#buttonClear","#buttonEquals","#buttonSubtract", "#interface_mode"];
+buttonOrder = ["#button7","#button8","#button9","#buttonDivide","#button4","#button5","#button6","#buttonMultiply","#button1","#button2","#button3","#buttonAdd","#button0","#buttonClear","#buttonEquals","#buttonSubtract"];
 
 // add the selected class to an item. you can pass this any jquery selector, such as #id or .class
 // calling this will de-select anything currently selected
@@ -125,7 +125,7 @@ $(document).keypress(function(event) {
 	else {
 		if (event.key == "d") {
 			selectNext();
-		} else if (event.key == "s") {
+		} else if (event.key == "w") {
 			selectDown();
 		} else if (event.key == "e") {
 			clickSelectedItem();

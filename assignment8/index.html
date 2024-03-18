@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<div id="calculator">
-			<h1>calc U l8r</h1>
+			<h1>Kal Q. Later</h1>
 			<div class="calculator_row">
 				<input id="number_input">
 			</div>
@@ -36,14 +36,36 @@
 				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
 				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
 			</div>
+			<div>
+				<button id="interface_mode" class="calcButton row5 col1 function">5-Button</button>
+			</div>
 		</div>
 		<div id="comments">
 			<h2>About this app</h2>
-			<p>Include information here about your app.</p>
 			<ul>
-				<li>Instructions for using the app</li>
-				<li>Test results</li>
-				<li>Anything else you have tried out</li>
+				<li>
+					To use this calculator app, you can guide your cursor with a mouse to press the various buttons on and around the calculator. The site starts in 
+					5-button mode, where upon pressing "a", "w", "s," or "d", you enter the ability to switch and press buttons with those 4 directional keys, and "e",
+					the key that will press the currently selected button. There is a button below the usual calculator buttons that allows the user to switch between this
+					initial 5-button mode and a 3-button mode, where only "s" and "d" are the directional keys, and "e" remains the pressing key. The "d" key moves to the
+					right, wrapping to the next row down when the farthest right spot is reached in the current row. The "a" key moves to the left, wrapping to the farthest
+					right in the next row up when the leftmost button is reached. The "w" key moves upward, wrapping to the bottommost button in the same column once the topmost
+					button is reached. The "s" key moves downward, wrapping to the topmost button in the same column once the bottommost button is reached.
+				</li>
+				<li>
+					To determine which mode is "better", the time it took to press the buttons and the number of erroneous buttons pressed was measured. For both the
+					5-button mode and the 3-button mode, the test started in the upper right-hand corner on the 7, and after every successful equation entered, the number field 
+					had to be cleared with the button. The equations were "25 + 19 - 31 + 54 = 67", "20 * 4 + 16 - 7 = 89", "15 / 3 * 4 + 10 = 30", "40 * 2 - 15 / 5 = 13", and
+					"51 / 3 + 24 * 2 = 82", with all the results based on the order in which the numbers and operations are entered from left to right. Erroneous buttons pressed, in
+					this case, is all the buttons pressed that are not the 3 or 5 primary keys of the switch mode.
+				</li>
+				<li>
+					The results from the five test runs conducted in each mode showed that the 5-button mode was faster, with an average time of 1 minute and 26 seconds, versus
+					the 3-button mode's average of 3 minutes and 31 seconds. The 5-button mode was also less erroneous, with an average of 0 errors per test, as opposed to the
+					3-button mode's average of 2.4 errors per test. The errors being greater than zero for the 3-button tests may have been due to the familiarity with the 5-button
+					mode. Also, while the 5-button mode is faster, the 3-button mode has less buttons to press, and thus less requirement of movement of the hand or other appendage(s)
+					to press the buttons.
+				</li>
 			</ul>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
